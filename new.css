@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: blue;
+}
+#portal{
+    width:70vw;
+    height:87vh;
+    background-color: rgb(251, 250, 249);
+    border: 2px solid rgba(255,255,255,0.7);
+    margin-left:15%;
+    
+}
+img{
+    margin-top: 3px;
+    margin-left: 87%;
+}
+nav{
+    height:20px;
+    width:100%;
+    background-color: rgba(75, 86, 247, 0.847);
+    font-weight: bold;
+    font-size: 14px;
+    display:flex;
+    flex-direction: row;
+}
+nav a{
+    text-decoration:none;
+    color: rgb(253, 251, 251);
+    
+    
+}
+#box-container{
+    height:100%;
+    width:100%;
+    margin-top:0;
+    display:flex;
+    background-color: #c9cacb71;
+    
+
+}
+#loginform,#news{
+    width: 45vh;
+    height: 35vh;
+    padding:5px;
+    color:white;
+    background-color:#387ADF;
+    border: 7px solid rgb(177, 172, 172);
+    border-radius: 13px;
+    margin-top: 7px;
+    margin-left:10%;
+    font-weight:70;
+    justify-content:space-between;
+    align-items:flex-start;
+     
+}
+#formtitle{
+    color:white;
+    font-weight:90;
+    display:flex;
+    justify-content:left;
+    margin-bottom:10px;
+}
+.inputbox{
+    height:20px;
+    width:60%;
+    margin-top:1px;
+    margin-bottom:5px;
+    padding-left:10px;
+    border:2px solid white;
+    border-radius:3px;
+}
+#loginbtn{
+    height:20px;
+    width:60px;
+    background-color:#b0b7b9;
+    color:rgb(18, 18, 18);
+    border:none;
+    
+}
+button{
+    cursor: pointer;
+    border: 2px solid rgb(88, 86, 86);
+}
+.pr{
+    font-size: 11px;
+    margin-left: 5vw;
+}
+.for{
+    display: inline-block;
+}
+
+#news{
+    font-size: 14px;
+    color: black;
+}
